@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['742322476486492160'];
+const myid = ['540617185714896896'];
 const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -158,7 +158,7 @@ message.channel.send("#rep "+"<@" + myid + ">")
   if (message.content === 'p7') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s7")) {
+  if(message.content.startsWith("s7 ")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -220,6 +220,7 @@ message.channel.send('#profile')
      message.channel.send(text);
   }
 });
+
 
 
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
@@ -377,7 +378,7 @@ if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -391,7 +392,7 @@ if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -405,7 +406,7 @@ if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -419,7 +420,7 @@ if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
+        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -427,4 +428,3 @@ if (message.content === prefix+'fast') {
         }
       }
 });
-
